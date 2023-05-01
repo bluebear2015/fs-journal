@@ -93,7 +93,7 @@ rows break up the page horizontally
 colums run prependicular
 in html everything runs vertical by default uless you use colums and rows to designate a space om the page
 using an asset file is a good place to store images
-after you stop images in assets you can call on them in the cod by using assets.imgID
+after you stop images in assets you can call on them in the cod by using assets.imgID f d
 best pratice for using figma is going from top to bottom
 in css is where you want to make your color pallette
 you can copy and paste your pallet color from figma.
@@ -122,4 +122,5 @@ use dev tools to manualely move thing to where you want them then copy and paste
  The .container class provides a responsive fixed width container. The .container-fluid class provides a full width container, spanning the entire width of the viewport.
  inside the css folder you can use @media(max width 768px){.class{background-image}} will make a chage such as the background-image when switching to mobileview
  margin-y=top and bottom margin-x=side to side
- 
+
+
