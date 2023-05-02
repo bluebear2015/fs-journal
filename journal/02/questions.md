@@ -1,11 +1,20 @@
 # Intro to JavaScript
 01. Which keywords are used to declare a variable in JavaScript?
 
-    > | ANSWER HERE |
+    > | 
+        var
+
+        let
+
+        const
+
+     |
 
 02. What is the definition of a function?
 
-    > | ANSWER HERE |
+    > | 
+    functions are set of statements inside that perform a task or calculate values. they need an input and a out put
+     |
 
 03. What are the `SOLID` principles?
 
@@ -17,7 +26,9 @@
     let fruit = ['apple', 'banana', 'pineapple', 'orange', 'strawberry']
     ```
 
-    > | ANSWER HERE |
+    > | 
+        fruit(pineapple)
+     |
 
 05. Given these two objects: How could you add each to the others friends arrays?
 
