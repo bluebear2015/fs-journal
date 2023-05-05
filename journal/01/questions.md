@@ -15,7 +15,9 @@
     |
 
 04. What is ***specificity*** and how might you use it to your benefit?
-    > | ANSWER HERE |
+    > | 
+    you can use specificity to let your css know what class is most relevent to the class  
+     |
 
 05. What problems do you think you could run into if you over-utilized the `!important` feature?
     > | 
@@ -51,7 +53,7 @@
 
 10. Define the display `:flex property:`
     > | 
-    
+    flex allows you to break the standard html format and lets align side to side other then up and down
     |
 
 11. What `CSS` properties affect the size of a box model?

@@ -45,24 +45,28 @@
     }
     ```
 
-    > | ANSWER HERE |
+    > | 
+    
+     |
 
 06. Give an example of a JavaScript `Conditional`:
 
-    > | ANSWER HERE |
+    > | if ("x <= 0") {
+        console.log(x)
+        |
 
 07. What is the main difference between `parameters` and `arguments`?
 
-    > | ANSWER HERE |
+    > |parameters are the name of the function and arguments are the values being put through the function |
 
 08. Instead of writing everything to the console, what is a better way to debug your code?
 
-    > | ANSWER HERE |
+    > | but the debug class in your javascript to see what action is being taken step by step |
 
 09. What is the difference between a `primitive` value and a `reference` value?
 
-    > | ANSWER HERE |
+    > | a primitive value is a value set inside of a function, a reference value is a set value affecting all functions |
 
 10. Demonstrate a loop that prints the numbers between -100 and 100?
 
-    > | ANSWER HERE |
+    > |  |
