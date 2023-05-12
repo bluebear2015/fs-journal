@@ -3,6 +3,10 @@ This reflection is open-format, so it can be whatever you like. Take this opport
 
 ## Prompts
 - What went well this week?
+i feel like a ma kind of understanding javascript a little bit better, it is still a little confusing at times
 - What did you learn that was a shock or surprise?
+-how much you can do with just html, css, and javascript 
 - What are you struggling with?
+just understanding functions and how to get them to interact with each other
 - What would you count as a victory?
+i feel like i am understanding it more than i thought i would, i went into this week pretty nervous.
