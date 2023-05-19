@@ -176,5 +176,7 @@ post to post data to an api
 get to get the stored data from api
 
 
+make sure we set up our env file
+make sure you are using pop errors or pop confirmations
 
 
