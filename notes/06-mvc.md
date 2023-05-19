@@ -232,3 +232,106 @@ textarea has a name attribute that corralates with what property you wan to selc
  always link up your controller in the APP
  anytime the coonsole says reserved word that mean we are putting a word thats reserved for a different function
  look up asyc and
+
+
+ ------------------Tueday weeek4---------------------------------
+
+ sandbox.codeworksacademy.com
+ jwt.io will give you your access token
+ use mvc-auth for new template today
+ when you enter the templat your gong to use the key provided by sandbox
+ after putting in our key we can remove the card auth template
+ we can use <a href="#about" class= "link"> direct to a differnet page
+ we now have a ENV.js is a new file in the new template
+ the ENV file is where we go to load up the enviorment for the application
+ this is where wer put our 3 keys from the sandbox
+ we also need to past the sandbox.com url in the base URL spot
+ if done right our envirmoent card should be all plugged in on the page
+ we then can login in the promt when page loads
+ the beaer token is the user id
+ after all this we can delete our template for the auth controller
+ users are now full object not just a string or a name
+ ROUTER
+ inside of this we hace a path path is the direction you want to dirct the page
+ we also use route to essenctially catch the path direction and ('_')
+probably swith to bcw serve insted of live
+biulding out craistlist
+1. putting a page
+use the Href#/cars
+now cars controller setup
+export class controller{
+    constructor(){
+        always console.log ('')
+ 
+    }
+}
+ next we are going to register the car controller in the router
+ if done right our console log should come up
+ the router initialises the controller but for the specific page so if you go to the about page our console log should not come in
+ next we need to make our car service  with our class cars and an export const carservice
+ class carsService{
+async getCarsFromApi(){
+const res = await api.get('api/cars')
+
+}
+ }
+then import the carsService to the cars controller
+
+in side our our car controller we can make our asynce GetjobsFromApi(
+    try{ awit.jobservice
+        catch
+    }
+)
+
+now we can go back to the cars service to get the data
+we use .map but you always need something to  map over so we make our modal this the this.data
+control to intelesence move to make changes to matching objects on a line for quick name changes
+res.data.map(j => new jobs(c))
+make a function so while the page is loading we log something to the page
+we can se html in the constructor to show something while its being fetched
+static jobform(){
+paste modal or template
+}
+inside the cars controller you can ust setHtml(modal-guts, jobform())
+inside of our button we can use data-bs-toggle= 'modal' data-bs-target='#modal" the target need to alwat match the id of what we are targetting
+we can also put a buttn inside of a setHTML(buttonId',"") to load with the hidden button inside the home controller
+if(appState.accoutn){
+    setHtml(id name) to have to app listen to when someone is logged in to load our state
+    anttime you use async you always need a try{
+    } catch (error){pop.error(error)}
+} 
+widow.event.preventDefault() to prevent from refreshing the screen when a user action takes place
+const formdata =window.event.target
+const formdata = new formdata
+to start our save form data function
+log(to see the saved data)
+the we need to cal on the service with an awiat carService.
+next we need to make a new car formdata function in the service
+async createjob(formdata)
+now we need to send the formData to the server
+cost respose = awiat api.post('api/cars', formData)
+the service is what should be talking to the server
+if the save was successful we should be able to log and see our formdata
+it does depend on the api you are using how it will proccess that info
+now if we can see the logges data
+we save it by const newcar = new Car(res.data)
+then we need to push it to the appstate
+
+delete button on our modal form
+onClick = app.carsController.delete job('dealetJob')
+ 
+ asyc deleteJo(id)
+ try{
+
+
+ }catch(error)
+ pop.error(error)
+
+ connect this to the car service
+
+ create a new async method
+ async always id followed by awiat
+ we can check our car deletion in the dev tools network tab
+ get rewuest is a read request a post requste is a create
+ put request is a update
+ delete is delete

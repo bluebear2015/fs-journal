@@ -261,3 +261,8 @@ you can also target the dierction of the marquee by using direction
 add adjust the speed by using scroll amount
 you c  an also double up on marquee tags to assign more behaviours
 assign the marquee up then make another marquee going for left or right to make it bouce around the set div
+use appstate.emit ('jobs')
+bootstrap.modal.getOrCreateInstance (#modal).hide()
+to get modal to close after form creation
+this is something we would do in the controller
+
