@@ -14,7 +14,9 @@
 
 03. What does *REST* stand for, and in simple terms what does it mean??
 
-  > | ANSWER HERE |
+  > | 
+  aloows something to take in a number of arrays
+  |
 
 04. What is a callback / higher order function?
 
@@ -34,7 +36,9 @@
 
 07. What does the `API` acronym stand for?
 
-  > | ANSWER HERE |
+  > | 
+  application programming interface
+  |
 
 08. What must you do in order to `await` a promise inside of a function?
 
