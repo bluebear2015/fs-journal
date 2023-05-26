@@ -1,40 +1,60 @@
-# Intro to Server side concerns with JavaScript
-01. What do the letters of the acronym `CRUD` stand for?
+# Single Page Applications with Vue
+01. What is the entrypoint of an application?
 
-  > | ANSWER HERE |
+  > | 
+  identifies a resource that is an access point to an application
+  |
 
-02. Each action that `CRUD` represents maps to an HTTP request. What HTTP request does each `CRUD` action correspond to?
+02. What is the difference between a vue `component` and `page`?
 
-  > | ANSWER HERE |
+  > | 
+   a Vue views is a page, while a component refers to something that is reusable and can be used in a view?
+   |
 
-03. What does `ORM` stand for? Which `ORM` do we use when interacting with MongoDB
+03. What is ***Component-Based Architecture***?
 
-  > | ANSWER HERE |
+  > | 
+  framework for building software based on reusable components. Each component is encapsulated
+   |
 
-04. Which two `HTTP` request types include a body?
+04. What are the three tags that make up a Vue component?
 
-  > | ANSWER HERE |
+  > | 
+  components must include a template tag and a script. A style tag.
+   |
 
-05. In a/an _______ coding model, when you call a function, it returns only when the action has finished and stops your program for the time the action takes. Likewise in a/an _______ coding model, multiple things are allowed to happen at one time. When you perform an action, your program continues to run.  Fill in the blanks.
+05. What are ***lifecycle hooks***? What are lifecycle hooks used for?
 
-  > | ANSWER HERE |
+  > | 
+   provides the amount of time to wait for the action to complete before the instance is pushed to the next state
+   |
 
-06. What are the three types of data relationships? Provide an example of each.
+06. Which component in Vue does the vue-router use to mount pages onto?
 
-  > | ANSWER HERE |
+  > | 
+  the vueport
+   |
 
-07. What is middleware?
+07. What is the difference between the `AppState` and the state object within a component?
 
-  > | ANSWER HERE |
+  > | 
+  te appstate is only storing the info for the instance a user is logged in, so itd local storage
+   |
 
-08. The ______ pipeline delivers information from the client while the ______ pipeline returns it. Fill in the blanks. 
+08. What is the responsibility of `Services` in our Vue projects?
 
-  > | ANSWER HERE |
+  > | 
+  it is responsible for creating and developing user-facing? applications by using Vue 
+   |
 
-09. Demonstrate the pattern that is used to include a request query with the client's `HTTP` request providing the property `tag` and the value `winter`.
+09. What are ***props*** and how are they used? Provide an example
 
-  > | ANSWER HERE |
+  > | 
+  tands for properties and is being used for passing data from one component to another
+  |
 
-10. What is a ***virtual property***?
+10. What is the Vue method used to create watchable objects such as `state` or `AppState`?
 
-  > | ANSWER HERE |
+  > | 
+  appstate.on and appstate.emit? 
+   |

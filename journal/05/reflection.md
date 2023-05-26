@@ -3,6 +3,12 @@ This reflection is open-format, so it can be whatever you like. Take this opport
 
 ## Prompts
 - What went well this week?
+once again things got more clear with the mvc pattern
 - What did you learn that was a shock or surprise?
+the process of making a fullstack application
+
 - What are you struggling with?
+javascript still but its getting better
+
 - What would you count as a victory?
+we shall see
