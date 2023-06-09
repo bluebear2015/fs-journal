@@ -190,3 +190,105 @@ how to search an api on the pages
 how to use props 
 what with the elvis opperators everywhere
 how do we bind : im just confused on what we are binding it to
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ full stack design //////////////////////////////////////////////////////
+
+
+first we need to use the express vue for the new full stack
+first thing you do when you open your vs code is go to the work place
+next set up the env.js with the right info from the sandbox
+next start client then start server one those are done go to local host
+best way to make sure the front end is connected to the back end is to lodin on the homepage
+(the account comes from the dataBase and the userInfo is the Auth0)
+after all of making sure the auth0 is set up next we make a model
+on the back end the model is a schema
+make sure to set up all virtuals needed in th model and next move to making a controller
+and remember that the path tho our schemas is in the bgContext thats where we put our mongoose model
+after getting the dbContext set up we can set up our service with a skelaton setUp
+and then set up our controller with a skeleton setUp
+remember that in the conteoller we use a constuctor and supers
+class{
+  constructop(){
+    super(path)
+this.router
+  }
+}
+
+
+so now there postman tests, a postman test makes a request than analizes the response to see if gunna fail
+whats important about the test is 
+
+make sure to set up the authorization in post man and get your bearer token so we can run postman under our loggIn
+for postman and for testing puposes our first step is gong to be post
+make sure to folloe the set files in order in the postmans test
+dont mess with set body of the test
+inside of the respne after you run the test you can see the test results these will be very helpfule
+req.body.creatorId = req.creatorInfo makes sure that the person creating the album is the verified user
+make sure in our service we have a populate in our creat function
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\                             front end                           ///////////////////////
+
+On the client side the first step after starting up the client is to get model, but if its already made for our server Schema we can basically copy it for our model
+in our model we can creator = new profile(data.creator)
+and then we can set up our profile in the account model
+it seems like good practice if you made the server to just make all the models needd since you already know the schema models from the server Side
+after getikng the models set up we can move on to service
+after making a service move on to making a get request from the selected api
+after making the get function we can make  omMounted and check to see if were are getting any data
+its seems to be good practice as well is to st up the template in the homePage then move it to the componet after the layout looks right
+mave sure to use your vBind correctly
+after aking the path in the router make sure to wrap up what we want as a clickable to be wrapped in a router link
+in the router link we need the name of the page and params with :id
+once the router is set upmake sure the links are sending you to the right page
+then we can work on drawing the data to the new page
+in side the new page is where we start making our get functions
+then get them in the onMounted and loaded to the screen 
+to access the the router we need a const route = getRouteById
+then we need to make sure we make our service side functions after the page is set up
+we need to think about the data we are wanting or getting back and make services and component accordinly
+we can reference paths/endpoints in the serverSide to mae sure we are hitting the right endpoint
+the @type {import} its making sure that our models are being read right
+when usin a model you need to add a slot <slot> </slot>
+a slot is a placceholder,it is essentialy doc.getElementById
+inside our form we can use the select tag for a list of things to choose and in that tag we can put an option tag with the options that we want
+useRoute means it will navigate to one page, while useRouter gives us accesss to our whole vue.page
+if you dont want to deal with elvis oppperators wrap your template in a v-if
+remember to use a @submit.prevent to stop the page from rloading after the submission of the form
+if we are trying to inject something into a modal to draw and somethings broken then it will affect the modal from opening
+if you have a rule on the front end the server need to reflect tha rule
+
+
+in the back we start our modes with a schema
+in the collaborator schema shows how we are tying together an album to an account for reference
+a virtual always has a foriegnfield, localField, ref, justOne.
+make sure to register all the models inside of our dBContext
+then we can make a controller
+make suer that the base controler gets imported, inside the super ake sure that you hitting the correct endpoint
+if we are psoting make sure to put a .use (authProvider)
+then we can make our functions we req.body.accountId than it can be passed to the servvice as needed
+make sure we are populating on the 
+the account is ment for outorizing the account user
+
+
+how to do a count on profiles following
+look at the docs for the cirtuals on mongoose.
+Befor maing code for the new checkPoint write out a good outline of what services, controllers and models that are needed
+do the same for the front end befor you start coding
+make sue that in postman we set up our baseUrl and our bearer token in the variables 
+besure to make sure we are pasting all postman tests, however we get that
+when we have multipule functions we need to have placehoder
+you can write anonamos functions in the computed
+make sure to reference how the did the filter on the front end with there buttons on the post-it app
+tonight and tommorw let make sure all of the back end is done befor over to the front end
+this checkpoin is going to be tricky so make sure that you focus hard o functionality
+remember that our v-for is our for loop for looping over our array and draing the information that is desired
+remeber using Vue that you need elvis oporators or a vIf over the whole desipred data template
+we can nest computed ref post_it
+our . Appstate.find gives reactivity
+
+
+

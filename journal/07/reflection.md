@@ -3,6 +3,12 @@ This reflection is open-format, so it can be whatever you like. Take this opport
 
 ## Prompts
 - What went well this week?
+
+the checkpoint is pretty intense but i feel it going pretty well
+
 - What did you learn that was a shock or surprise?
+how crazy things can get when you make a full stack web app
 - What are you struggling with?
+i was strugggling with my many to many relationships but im pretty sure i have them working right
 - What would you count as a victory?
+hopefully the checkpoint 🫤
