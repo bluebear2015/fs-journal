@@ -21,7 +21,7 @@
 
 5. What is the `v-model` attribute in Vue for, and when might you use it?
 
-  > | It is used to create a connection between form inputs (like <input>, <select>, or <textarea>) and a piece of component data  |
+  > | It is used to create a connection between form inputs (like `<input>`, `<select>`, or `<textarea>`) and a piece of component data  |
 
 6. What is the package.json file used for?
 
@@ -37,4 +37,4 @@
 
 9. What is the `<slot>` element and what is it used for?
 
-  > | The <slot> element is used in Vue to create content placeholders within a component.  |
+  > | The `<slot>` element is used in Vue to create content placeholders within a component.  |
