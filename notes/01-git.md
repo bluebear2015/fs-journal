@@ -33,3 +33,11 @@ you can filter and change the hue of an image or logo in the CSS file.
 Start using Anchor Tags more!
 in order to arrang things by media scrren size we can use bootstrap order- 1-5 and with that we can put md-order 1-5
 to switch the order arrangement when the screen size changes.
+
+------------------------------------------PARTNER CODING 08/10 ---------------------
+
+when starting a project from scratch, it is a good practice to make a quick low-fidelity mock-up to get a idea of the general layout the page.
+the containers need to be at the header, body, footer.
+when making your aplication always build mobile friendly from the start
+use position absolute and position static to elements to remove it from the flow of the dom.
+position absolute means, 
