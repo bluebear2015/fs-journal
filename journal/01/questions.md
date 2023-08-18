@@ -31,7 +31,7 @@
 
 07. How do you think good design influences people when visiting a website, and what sorts of things could you convey through design alone?
 
-    > easy ro follow designs with good user interface.
+    > easy to follow designs with good user interface.
 
 08. What is the purpose of ***wireframing***?
 
