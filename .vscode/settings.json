@@ -18,5 +18,8 @@
     "titleBar.inactiveBackground": "#216dda99",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#216dda"
+  "peacock.color": "#216dda",
+  "spellchecker.ignoreWordsList": [
+    "apporprietly"
+  ]
 }

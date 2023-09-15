@@ -57,3 +57,12 @@ when doing npm install on both sides there might be issues because they may be t
 to uses middle wear you put .Use((req, res, next)=>) next().
 we use .use(Auth0Provider.getAuthorizedUserInfo)
 this will allow us to access the auth0 token on the req objecct.
+
+
+---------connecting the front end----------
+first thing we need to do make sure that the auth0 is working properlly from the back end code we made.
+the first step was to create an account on Auth0.com website.
+remeber on the front end we need to register all our controllers in the router-view.
+
+
+coderDatingSite.
