@@ -177,4 +177,77 @@ we use a v-model for forms it is a two way data-binding.
 v-bind is one way binding.
 https://prod.liveshare.vsengsaas.visualstudio.com/join?FC93D1AE23CFA97216B4E4AC096DE5729A28
 
+# Fullstack Checkpoint Prep.
+
+begin with express-vue project.
+make project and cd into it.
+open workspace first when opening vscode.
+then quick intialize repository.
+if we miss the workspace popup go to the workspace folder and open it through there.
+next is setting up the enviorment, the env.js in both the server side and the client side.
+then go to run and debug ans spin up both client and server.
+go to localhost8080 to make sure that everything is running right.
+then login to make sure the auth0 is working properly.
+make sure we are getting 200s from the home screen making sure everything is connected.
+next get post man set-up.
+there are a set of tests already put in postman. and we need to make sure we make our back end to pass all tests.
+The tests that are set up, need to be completed in there oreder that they are set up.
+we going to a one-many and a many-many relationship in this checkpoint.
+we should start with making a Schema modle in the server.Src 
+make sure that we set up our schemas with the name:{type:,required: true, maxlength}.
+for data that has multiple options we need to set up a enum, if use {lowerCase: true} with our enums we can make it so it is not case sensitive.
+we can add a default img for imgs that migtht not get a cover Photo.
+if we wanted a createdAt or updatedAt being brought in with our data on the front end we need to add timeStamps on the Schema.
+then we need to set up populates fro any references that need to be connected through the schema.
+we need to register evey schema in the dbContext
+next ewe can start making a controller and a service. 
+the fist function we need to make are the creates.
+in the controller we need to have the our super set up with the api endPoint.
+then the super we need to put our .use(Auth0) and our .post() function underneth it.
+we need to have everything set up with async()req,res,next{try{}catch{}}
+we need t omake sure if we are using the Auth0 we need to make sure we have our barer token is correctcly put in postman.
+we can put our barer token in the top file in the variables slot.
+we need to put the barer token in both value spots.
+if set up propperly then postman should be able to act on the person who is signed in.
+Make sure that we get the back end set up 100% befor moving in to the front-end this checkPoint.
+Make sure that we are reading every error properly.
+ virtauls and populates go hand in hand.
+ reading the errors from postman is key fro passing this checkpoint.
+ make sure that you refer to the UML diagram for the required data for the schemas.
+ after making our creates we can then go on to making our .get() call above the .Use(Auth0) so we can get the data without being logged in.
+ once we get our post working and our get working we can then run the whole file test to check ech test inside of the file, instead of individually testing each functin solo.
+ the failed test titles are hints to what went wrong with the backend code.
+ make sure if you confused about the populates you get help fast.
+ when getting things by their ID we need to send to the service layer the (req.params.nameID).
+ we need to make sure we have null checks in palce with an if(!name){throw BadRequest(bad)}.
+ flipping a boolean: we need to send 2 things down to the service layer (req.params.albumId, reg.userInfo.id).
+ Then in the service layer we bring in the (albumId, userId)
+ we need to use another if statement.
+ If we actually wanted to delete it we would do name.remove.
+ but to flip the bool we doo name.archive = !name.archive await name.save() return name.
+ we need the .save so the database knows that there was a change to the data.
+params come from the url.make sure we do not move to front end until all tests in postman are done.
+once the tests in postman are done make sure you get functionality on the front end done before getting crazy with the styling sauce.
+make sure that we hitting the right endpoint in the crud methods being called in the super.
+remember how we crossed our services in postIt backend to get the albums by pictureId.
+we can even cross our function from our services to other services, services can call to other services.
+but you cannot have a controller talk to another controller.
+make sure that we are checking the naming conventins with the data coming back so we know it is coming back right.
+make sure to reference to the filter bar in the PostIt app when working with the checkpoint.
+we can use slots for our form intakes. 
+like I did with the post if forms. 
+then with that slot we can set up props.
+if we make a componet with an opening tag and an end tag we can open it up and pass through our props into the componet.
+we can use option tags with a vue form so there are multiple options to pick through on the form when creating.
+if want the data coming in to come to flip the order of the array we can add a .sort() ay the end of
+ the query and pass a parmeter in the sort for how we want the data to come in.
+ the if we want the new created object to come to the top of the page we need to put an unshift on the formdata its self.
+ in a virtual our local field is look at one of the fields on me.
+ foriegn field is what oyu are referencing on another docment.  if you have 2 virtuals pointing at each other then you can get a count of both object with in the array.
+ reference the member count in the postIt project to see how to cross populate.
+ make sure that everything on the front end modle matchs everything on the backend.
+ in the auth service there is a spot to add thing that might need to happen. like when you log in you can get any select data brought to the screen when the login has been verified.
+ we can refrence other modles on the front end to each other. by using new ModleName(data.name)
+ w can also in our prop alwo it to pass as what we are running though our modle and also have a OR statement with it being called an object to pass the data easier to other methods or functions trying to accses it.
+
 
