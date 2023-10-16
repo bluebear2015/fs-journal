@@ -321,4 +321,17 @@ we use a delete request even though it is an edit to the info.
 public ActionResult<TableName> FlipBool(int dataTypeId){
 
 }
+When ever we are working with an account with user info, all of that info needs to be a string. Auth0 likes strings for there Ids.
+How to work with many to many relationships using C# and DotNet.
+We are going to be making two models one for each table.
+Then we create a third class called joinTable which has both foreign keys from the other two classes.
+This will allow us to access all data that belongs together without having to query multiple times.
+To connect this all together we go into our Dbcontext file where we define out database schema.
+First we need to include the JoinTable in our DbSet list.
 
+then we will go into the startup file where we will configure our service provider.
+and finally we will go into the controller and call out the data.
+ExecuteScalar<>
+It's used when you want to return exactly one value.
+we can also extend a class in the model.
+like if we wanted to add more properties to IdentityUser.

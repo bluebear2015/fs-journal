@@ -22,5 +22,6 @@
   "spellchecker.ignoreWordsList": [
     "apporprietly",
     "TABLEvvvvv"
-  ]
+  ],
+  "cSpell.enabled": false
 }
